@@ -82,7 +82,10 @@ working, run the following command if you've stopped your server:
 $ python3 manage.py runserver 0:8000
 ```
 
-Refresh the **runserver** tab, and you should see the text _“Hello,
+Unfortunately, we can't change the URL in the **runserver** tab, so
+click the button on that tab that looks like a box with an escaping
+arrow. This should open a new tab in your browser. Now you can change
+the URL so it ends with `/polls/` and you should see the text _“Hello,
 world. You’re at the polls index.”_, which you defined in the `index`
 view.
 
@@ -91,7 +94,8 @@ view.
 ### Page not found?
 
 If you get an error page here, check that you’re going to
-http://localhost:8000/polls/ and not http://localhost:8000/.
+https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/polls/
+and not https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/.
 
 ---
 

@@ -27,7 +27,7 @@ To create your app, make sure you’re in the same directory as `manage.py`
 and type this command:
 
 ```
-$ python manage.py startapp polls
+$ python3 manage.py startapp polls
 ```
 
 That’ll create a directory `polls`, which is laid out like this:
