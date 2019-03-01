@@ -8,7 +8,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "The development server",
         "text": "step2.md"
       },
       {
@@ -25,7 +25,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [{"name": "runserver", "port": 8000}]
   },
   "backend": {
     "imageid": "ubuntu"

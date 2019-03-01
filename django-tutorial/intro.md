@@ -12,4 +12,4 @@ It’ll consist of two parts:
 
 We've installed Django for you but you get to do the rest! You'll need
 to use a terminal editor to edit your files, unfortunately. If you're
-not comfortable with `vi`, feel free to install another editor.
+not comfortable with `vi` or `nano`, feel free to install another editor.

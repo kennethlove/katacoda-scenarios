@@ -1,5 +1,3 @@
-# Creating a project
-
 If this is your first time using Django, you’ll have to take care of
 some initial setup. Namely, you’ll need to auto-generate some code that
 establishes a Django project – a collection of settings for an instance
@@ -44,7 +42,7 @@ Put your code in some directory outside of the document root, such as
 Let’s look at what `startproject` created:
 
 ```
-$ ls mysite
+$ ls -R1 mysite
 mysite/
     manage.py
     mysite/
