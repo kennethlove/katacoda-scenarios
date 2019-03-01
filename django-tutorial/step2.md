@@ -75,3 +75,27 @@ The development server automatically reloads Python code for each
 request as needed. You don’t need to restart the server for code changes
 to take effect. However, some actions like adding files don’t trigger a
 restart, so you’ll have to restart the server in these cases.
+
+## Adding `ALLOWED_HOSTS`
+
+We currently have the app running but with an error message because
+we're trying to access it from a host that isn't allowed. By default,
+Django only allows requests from `localhost`. This is a good security
+measure to keep out nefarious requests.
+
+Open up the `mysite/settings.py` file in your editor (you may want to
+open a new terminal first. You can do this by clicking the **+** icon
+and choosing "Open new terminal"). Near the top, you should see a
+setting named `ALLOWED_HOSTS`. Change it to match:
+
+```
+ALLOWED_HOSTS = ["*"]
+```
+
+This will allow any and all hosts to connect to your app. In a
+production environment, you'd want to set this to your own domain(s) or
+maybe revert it back to an empty list. For learning, though, this is an
+acceptable change.
+
+Save the file, restart `runserver` if you killed it, and refresh the web
+view. You should now see the green "It worked!" page.
