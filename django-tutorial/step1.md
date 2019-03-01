@@ -15,7 +15,7 @@ didn’t work, see [Problems running django-admin](https://docs.djangoproject.co
 
 ---
 
-## Note
+### Note
 
 You’ll need to avoid naming projects after built-in Python or Django
 components. In particular, this means you should avoid using names like
@@ -24,7 +24,7 @@ conflicts with a built-in Python package).
 
 ---
 
-## Where should this code live?
+### Where should this code live?
 
 If your background is in plain old PHP (with no use of modern
 frameworks), you’re probably used to putting code under the Web server’s

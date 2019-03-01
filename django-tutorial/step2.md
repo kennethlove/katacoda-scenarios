@@ -2,7 +2,7 @@ Let’s verify your Django project works. Change into the outer `mysite`
 directory, if you haven’t already, and run the following commands:
 
 ```
-$ python manage.py runserver 0.0.0.0:8000
+$ python manage.py runserver 0:8000
 ```
 
 You’ll see the following output on the command line:
@@ -24,7 +24,7 @@ If you see other output, that's OK, we'll address it later.
 
 ---
 
-## Note
+### Note
 
 Ignore the warning about unapplied database migrations for now; we’ll
 deal with the database shortly.
@@ -36,36 +36,40 @@ written purely in Python. We’ve included this with Django so you can
 develop things rapidly, without having to deal with configuring a
 production server – such as Apache – until you’re ready for production.
 
-Now’s a good time to note: don’t use this server in anything resembling
+Now’s a good time to note: **don’t** use this server in anything resembling
 a production environment. It’s intended only for use while developing.
 (We’re in the business of making Web frameworks, not Web servers.)
 
-Now that the server’s running, visit http://127.0.0.1:8000/ with your
-Web browser. You’ll see a “Congratulations!” page, with a rocket taking
-off. It worked!
+Now that the server’s running, click on the **runserver** tab (you may
+need to click the refresh icon). At this point, you'll likely see a
+yellow error page. _We'll clear up this error in a minute!_ It worked!
 
-Changing the port
+## Changing the port
 
-By default, the runserver command starts the development server on the
+By default, the `runserver` command starts the development server on the
 internal IP at port 8000.
 
-If you want to change the server’s port, pass it as a command-line
-argument. For instance, this command starts the server on port 8080: /
-
+Due to the constraints of Katacoda, we had to change the IP and the port
+already. If you need to do this in the future, pass it as a command-line
+argument. For instance, this command starts the server on port 8080: 
 
+```
 $ python manage.py runserver 8080
+```
 
 If you want to change the server’s IP, pass it along with the port. For
 example, to listen on all available public IPs (which is useful if you
 are running Vagrant or want to show off your work on other computers on
-the network), use: / 
+the network), use:
 
+```
 $ python manage.py runserver 0:8000
+```
 
-0 is a shortcut for 0.0.0.0. Full docs for the development server can be
-found in the runserver reference.
+`0` is a shortcut for `0.0.0.0`. Full docs for the development server
+can be found in the `runserver` reference.
 
-Automatic reloading of runserver
+## Automatic reloading of `runserver`
 
 The development server automatically reloads Python code for each
 request as needed. You don’t need to restart the server for code changes
