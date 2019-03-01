@@ -2,7 +2,7 @@ Let’s verify your Django project works. Change into the outer `mysite`
 directory, if you haven’t already, and run the following commands:
 
 ```
-$ python manage.py runserver 0:8000
+$ python3 manage.py runserver 0:8000
 ```
 
 You’ll see the following output on the command line:
@@ -54,7 +54,7 @@ already. If you need to do this in the future, pass it as a command-line
 argument. For instance, this command starts the server on port 8080: 
 
 ```
-$ python manage.py runserver 8080
+$ python3 manage.py runserver 8080
 ```
 
 If you want to change the server’s IP, pass it along with the port. For
@@ -63,7 +63,7 @@ are running Vagrant or want to show off your work on other computers on
 the network), use:
 
 ```
-$ python manage.py runserver 0:8000
+$ python3 manage.py runserver 0:8000
 ```
 
 `0` is a shortcut for `0.0.0.0`. Full docs for the development server
