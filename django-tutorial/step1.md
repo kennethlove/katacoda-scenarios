@@ -35,7 +35,7 @@ may be able to view your code over the Web. That’s not good for
 security.
 
 Put your code in some directory outside of the document root, such as
-`/home/mycode`.
+`/home/mycode`. For this tutorial, don't worry about the location.
 
 ---
 

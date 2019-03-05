@@ -40,9 +40,9 @@ Now’s a good time to note: **don’t** use this server in anything resembling
 a production environment. It’s intended only for use while developing.
 (We’re in the business of making Web frameworks, not Web servers.)
 
-Now that the server’s running, click on the **runserver** tab (you may
-need to click the refresh icon). At this point, you'll likely see a
-yellow error page. _We'll clear up this error in a minute!_ It worked!
+Now that the server’s running, click on the **runserver** tab. At this
+point, you'll likely see a yellow error page. _We'll clear up this error
+in a minute!_
 
 ## Changing the port
 
