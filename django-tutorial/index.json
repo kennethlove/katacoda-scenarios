@@ -41,7 +41,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
+    "uilayout": "editor-terminal",
     "showdashboard": true,
     "dashboards": [{"name": "runserver", "port": 8000}]
   },
