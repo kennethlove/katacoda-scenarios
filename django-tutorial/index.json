@@ -20,12 +20,16 @@
         "text": "step4.md"
       },
       {
-        "title": "n/a",
-        "text": "step3.md"
+        "title": "Database setup",
+        "text": "step5.md"
       },
       {
-        "title": "n/a",
-        "text": "step3.md"
+        "title": "Creating models",
+        "text": "step6.md"
+      },
+      {
+        "title": "Activating models",
+        "text": "step7.md"
       }
     ],
     "intro": {
